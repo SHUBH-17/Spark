@@ -1,0 +1,36 @@
+Spark:
+------------------------------------------------------------------------------------------------------
+02/04/2023
+-------------
+08/04/2023
+-------------
+09/04/2023
+-------------
+Spark Master: https://red-scientist-djuwq.ineuron.app:8080
+History Server: https://red-scientist-djuwq.ineuron.app:18080
+Spark Worker Node: https://red-scientist-djuwq.ineuron.app:8081
+
+
+workspace:
+>ls
+--------------
+> python demo.py
+> hdfs dfs -ls 
+> hdfs dfs -cat /user/abc/record.csv/part-00000.csv
+--------------
+> hdfs dfs -mkdir /input_data
+> hdfs dfs -put employees.csv /input_data
+> hdfs dfs -put departments.csv /input_data
+> hdfs dfs -ls /input_data
+---------------
+> pyspark -> opens spark shell (interactive terminal to interact with the spark app directly)
+
+SparkSession:
+>>GITHUB repo -> Spark/spark_exercise.txt
+
+-------------
+15/04/2023
+-------------
+
+
+------------------------------------------------------------------------------------------------------
